@@ -153,9 +153,38 @@ void arrayTest() {
     }
 }
 
+void testAbstract() {
+    // this section shows that 
+    // Dog and Cat classes can be instantiated
+    // and that they can make sound
+    {
+        printTitle("Test Abstract: Dog (no compile error)", CYAN);
+        Animal* animal = new Dog();
+        animal->makeSound();
+        delete animal;
+    }
+    {
+        printTitle("Test Abstract: Cat (no compile error)", CYAN);
+        Animal* animal = new Cat();
+        animal->makeSound();
+        delete animal;
+    }
+    // uncomment this section to see that 
+    // Animal class cannot be instantiated directly
+    // (compile error will be shown):
+    //
+    // {
+    //     printTitle("Test Abstract", CYAN);
+    //     Animal* animal = new Animal();
+    //     animal->makeSound();
+    //     delete animal;
+    // }
+}
+
 int main() {
     copyTestDog();
     copyTestCat();
     arrayTest();
+    testAbstract();
     return 0;
 }

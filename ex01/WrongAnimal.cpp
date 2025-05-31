@@ -25,5 +25,5 @@ std::string WrongAnimal::getType() const {
 }
 
 void WrongAnimal::makeSound() const {
-    std::cout << "❗ 🐾 * Some indistinct sound *" << std::endl;
+    std::cout << "❗ 🐾 * Wrong Animal Silence *" << std::endl;
 }
