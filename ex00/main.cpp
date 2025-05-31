@@ -134,14 +134,10 @@ void wrongAnimalTestsTogether() {
 }
 
 int main() {
-
     basicTestsAnimal();
     basicTestsDog();
     basicTestsCat();
-
     generalTestsTogether();
-
     wrongAnimalTestsTogether();
-    
     return 0;
 }
