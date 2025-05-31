@@ -1,10 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Animal.hpp                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: iatopchu <iatopchu@student.42berlin.de>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/05/31 23:13:13 by iatopchu          #+#    #+#             */
+/*   Updated: 2025/05/31 23:16:01 by iatopchu         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef ANIMAL_HPP
 #define ANIMAL_HPP
 
 #include <iostream>
 #include <string>
-
-
 
 class Animal {
 protected:
